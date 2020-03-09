@@ -1,0 +1,381 @@
+@charset "UTF-8";
+
+@media(max-width:896px){
+  div#wrapper {
+    width:20rem;
+  }
+
+  header {
+    display: none;
+  }
+
+  a#humberger-icon {
+     position: relative;
+     position: fixed;
+     top: 2.4rem;
+     right: 3rem;
+     height: 2rem;
+     width: 2rem;
+     display: inline-block;
+     box-sizing: border-box;
+     z-index: 5;
+   }
+
+   a#humberger-icon span{
+    position: absolute;
+    left: 0;
+    height: 0.2rem;
+    width: 3rem;
+    background-color: #000000;
+    border-radius: 2px;
+    display: inline-block;
+    box-sizing: border-box;
+  }
+
+  span#line-top {
+    top:0;
+    transition: transform 0.5s;
+  }
+
+  span#line-middle {
+    top:9px;
+  }
+
+  span#line-bottom {
+    bottom:0;
+    transition: transform 0.5s;
+  }
+
+  div#menu {
+    display: none;
+    opacity: 0;
+    position: fixed;
+    left: 0;
+    background-color: #0D1374;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+  }
+
+  div#menu nav {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+
+  div#menu nav ul li {
+    margin-top: 3rem;
+  }
+
+  div#menu nav ul li:first-child {
+    margin-top: 0;
+  }
+
+  div#menu nav ul li a {
+    font-size: 3rem;
+    color: #ffffff;
+  }
+
+  div#main-title {
+    height: 33.5rem;
+  }
+
+  div#title {
+    font-size: 2.5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border: solid 0.4rem #0D1374;
+  }
+
+  div#scroll {
+    display: none;
+  }
+
+  div.line {
+    display: none;
+  }
+
+  div#blue-line {
+    display: none;
+  }
+
+  div#works {
+    height: 94.8rem;
+  }
+
+  div#background-color {
+    height: inherit;
+  }
+
+  div#works-inner {
+    width: 20rem;
+    top: 0;
+  }
+
+  .title {
+    font-size: 2.5rem;
+    width: 9rem;
+    margin: auto;
+  }
+
+  div#works-inner h2.title {
+    border-bottom: 2px solid #ffffff;
+    padding-top: 6rem;
+  }
+
+  .title::before {
+    display: none;
+  }
+
+  div#works-inner ul {
+    top: 15rem;
+  }
+
+  div#works-inner ul li {
+    float: none;
+    margin-left: 0;
+    margin-top: 5rem;
+  }
+
+  div#works-inner ul li:first-child {
+    margin-top: 0;
+  }
+
+  div#works-inner ul li a img {
+    width: 20rem;
+  }
+
+  div#about {
+    width: auto;
+    margin-top: 10rem;
+  }
+
+  div#about h2 {
+    border-bottom: 2px solid #0D1374;
+  }
+
+  div#profile {
+    margin-top: 8rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+    width: 7.7rem;
+    margin: auto;
+  }
+
+  div.h3-line {
+    display: none;
+  }
+
+  h4 {
+    font-size: 1.2rem;
+    margin: 2.5rem auto;
+  }
+
+  div#profile h4 {
+    width: 24rem;
+  }
+
+  h4 span {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    width: 30rem;
+    margin: 2.5rem auto;
+  }
+
+  div#profile-img {
+    display: none;
+  }
+
+  div#skills {
+    margin-top: 3rem;
+  }
+
+  div#skills-contents {
+    width: 30rem;
+    margin: 2rem auto;
+  }
+
+  div#skills-contents dl  {
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  div#skills-contents dl:nth-child(-n+3)  {
+    margin-top: 0;
+  }
+
+  div#skills-contents dl:nth-child(1)  {
+    margin-left: 1.5rem;
+  }
+
+  div#skills-contents dl dt {
+    font-size: 1.2rem;
+  }
+
+  div#skills-contents dl dd {
+    font-size: 1.2rem;
+  }
+
+  div#value {
+    margin-top: 7rem;
+  }
+
+  div#value h3 {
+    width: 6.5rem;
+  }
+
+  div#value h4 {
+    width: 21rem;
+  }
+
+  div#vision {
+    margin-top: 7rem;
+  }
+
+  div#vision h4 {
+    width: 14rem;
+  }
+
+  div#contact {
+    width: auto;
+    margin-top: 10rem;
+  }
+
+  div#contact h2.title {
+    width:11.5rem;
+    border-bottom: 2px solid #0D1374;
+  }
+
+  div#contact ul {
+    width: 17.5rem;
+    margin: auto;
+  }
+
+  .icon {
+  	font-size: 2rem;
+  }
+
+  footer {
+    margin-top: 10rem;
+    height: 7rem;
+  }
+
+  div#copy {
+    font-size: 1rem;
+    line-height: 7rem;
+    letter-spacing: 0;
+  }
+
+
+
+  div.design {
+    width: 100%;
+    margin-top: 10rem;
+  }
+
+  h2.design-title {
+    font-size: 1.2rem;
+  }
+
+  h2#web-title {
+    width: 10.4rem;
+  }
+
+  h2#uiux-title {
+    width: 11.8rem;
+  }
+
+  h2#business-title {
+    width: 16.5rem;
+  }
+
+  h3.theme {
+    font-size: 1.6rem;
+    margin: 2rem auto;
+  }
+
+  h3#web-theme {
+    width:28.7rem;
+  }
+
+  h3#uiux-theme {
+    width: 34.5rem;
+  }
+
+  div.img {
+    margin-top: 2rem;
+  }
+
+  img.mock {
+    width: 37.5rem;
+  }
+
+ img#naoki-photos {
+    width: 30rem;
+  }
+
+  img#naoki-phone {
+     width: 12rem;
+   }
+
+  div#uiux-img img {
+    width: 30rem;
+  }
+
+  div#naoki {
+    margin-top: 10rem;
+  }
+
+  p#photo-page {
+    width: 12rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  div.design dl {
+    margin: 5rem auto;
+    width: 27rem;
+  }
+
+  div.design dl dt {
+    font-size: 1.2rem;
+  }
+
+  div.design dl dd {
+    font-size: 1.2rem;
+    margin-left: 10rem;
+  }
+
+  div.design dl dd a {
+    font-size: 1.2rem;
+  }
+
+  a.url {
+    width: 5rem;
+  }
+
+  h3#google-theme {
+    width: 23.7rem;
+  }
+
+  h3#zozo-theme {
+    width: 25.5rem;
+  }
+
+  div.sub-title {
+    display: none;
+  }
+
+  img#business-img {
+    width: 30rem;
+  }
+
+}
